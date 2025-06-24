@@ -50,7 +50,6 @@
 ---
 
 ![Profile Views](https://komarev.com/ghpvc/?username=sandaliz&label=Profile%20views&color=0e75b6&style=flat)
-![Visitors](https://komarev.com/ghpvc/?username=sandaliz&label=Profile%20views&color=0e75b6&style=flat)
 
 Connect with Me [here](https://www.linkedin.com/in/sandali-ranahewa-356ab8323/) 
 
