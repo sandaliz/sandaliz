@@ -39,8 +39,6 @@
   
 </p>
 
-Connect with Me [here](https://www.linkedin.com/in/sandali-ranahewa-356ab8323/) 
-
 ---
 
  🧚🏼‍♀️
