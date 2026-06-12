@@ -2,13 +2,32 @@
 
 ## Index
 
+- [Customer Churn Predictor](#customer-churn-predictor)
 - [EV Charging Station Usage Analysis](#ev-charging-station-usage-analysis)
 - [InfoPal](#infopal)
+- [UniOps](#uniops)
+- [Emotion-Satisfaction Analysis](#emotion-satisfaction-analysis)
 - [HealthyPaws](#healthypaws)
 - [MerNote](#mernote)
 - [BusyBus](#busybus)
 - [CookBook](#cookbook)
-- [Emotion-Satisfaction Analysis](#emotion-satisfaction-analysis)
+
+### Customer Churn Predictor
+
+#### Description
+
+End-to-end ML system that predicts customer churn with 80% accuracy using Logistic Regression. Built sklearn pipeline with preprocessing, LLM integration via OpenRouter for AI-generated retention recommendations. Identified $1.3M+ at-risk revenue with risk scoring (HIGH/MEDIUM/LOW) and interactive Streamlit dashboard.
+
+#### Technologies
+
+- **ML & Processing:** Scikit-learn, Pandas, Python
+- **Explainability & API:** FastAPI
+- **Dashboard:** Streamlit, Plotly
+- **LLM:** OpenRouter
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge)
+
+---
 
 ### EV Charging Station Usage Analysis
 
@@ -16,7 +35,9 @@
 
 #### Description
 
-Performed end-to-end analysis on 150K+ EV charging records to identify usage patterns, energy trends, and station performance insights. Built ETL workflows and interactive dashboards for business intelligence reporting.
+Performed end-to-end analysis on 200K+ EV charging records to identify usage patterns, energy trends, and station performance insights. Built ETL workflows and interactive dashboards for business intelligence reporting.
+
+**Period:** 2026 Feb – Apr
 
 #### Technologies
 
@@ -40,6 +61,8 @@ Performed end-to-end analysis on 150K+ EV charging records to identify usage pat
 #### Description
 
 Built a prototype Retrieval-Augmented Generation (RAG) pipeline for document-based question answering using a local LLM setup. Implemented document ingestion, semantic search using FAISS, and context-aware response generation using Mistral-7B.
+
+**Period:** 2026 Jan
 
 #### Key Features
 
@@ -65,6 +88,60 @@ Built a prototype Retrieval-Augmented Generation (RAG) pipeline for document-bas
 
 ---
 
+### UniOps
+
+#### Description
+
+University facility management system with resource booking, incident ticketing, and real-time notifications. My contribution: Module A (Facilities & Assets Catalogue) – full stack development including 13 RESTful API endpoints with Spring Boot, role-based access control, and React admin dashboard with advanced filtering, real-time analytics, and PDF export. Optimized performance with debounced search and MongoDB indexing.
+
+**Period:** 2026 Feb – Apr
+
+#### Technologies
+
+- **Backend:** Spring Boot 3.x, MongoDB Atlas, Maven
+- **Frontend:** React 18, DaisyUI, Tailwind CSS
+- **Authentication:** OAuth 2.0
+- **API:** REST
+
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=spring-boot&logoColor=white&style=for-the-badge) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwind-css&logoColor=white&style=for-the-badge)
+
+---
+
+### Emotion-Satisfaction Analysis
+
+[![Repository](https://img.shields.io/badge/Repository-black?logo=github&logoColor=white&style=for-the-badge)](https://github.com/sandaliz/emotion-satisfaction-analysis)
+
+#### Description
+
+Multi-activity comparative study validating whether emotional connection predicts satisfaction across entertainment domains (movies, social media, music). Implemented descriptive, inferential, predictive, and meta-analysis using R. My contribution: music dataset analysis with strong evidence (r=0.215, p<0.001, OR=1.731) supporting the hypothesis.
+
+**Period:** 2026 Feb – Mar
+
+#### Key Findings
+
+- **Correlation Analysis:** Demonstrated significant positive correlation (r=0.215) between emotional connection and satisfaction in music domain.
+- **Statistical Significance:** Strong evidence with p-value < 0.001.
+- **Odds Ratio:** Users with emotional connection were 1.731 times more likely to report satisfaction.
+- **Meta-Analysis:** Combined effect sizes across all entertainment domains for comprehensive validation.
+
+#### Technologies
+
+- **Statistical Analysis:** R for comprehensive statistical computing.
+- **Data Manipulation:** Tidyverse for data wrangling and transformation.
+- **Meta-Analysis:** Meta package for combining effect sizes across studies.
+- **Visualization:** ggplot2 for publication-quality statistical graphics.
+- **Effect Sizes:** Effectsize package for standardized effect size calculation.
+- **Predictive Modeling:** Caret with Logistic Regression for classification tasks.
+
+![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white&style=for-the-badge) ![Tidyverse](https://img.shields.io/badge/Tidyverse-1A162D?logo=r&logoColor=white&style=for-the-badge) ![ggplot2](https://img.shields.io/badge/ggplot2-276DC3?logo=r&logoColor=white&style=for-the-badge)
+
+#### Screenshots
+
+| ![Emotion Satisfaction Analysis](projects/emotion-sat2.png) |
+| :---------------------------------------------------------: |
+
+---
+
 ### HealthyPaws
 
 [![Repository](https://img.shields.io/badge/Repository-black?logo=github&logoColor=white&style=for-the-badge)](https://github.com/sandaliz/healthy-paws-petcare)
@@ -72,6 +149,8 @@ Built a prototype Retrieval-Augmented Generation (RAG) pipeline for document-bas
 #### Description
 
 Developed billing and finance module for a MERN-based veterinary system, focusing on secure and automated payment workflows. Implemented Stripe payments, invoicing, refunds, coupon system, and financial dashboards.
+
+**Period:** 2025 Aug – Oct
 
 #### Key Features
 
@@ -103,28 +182,32 @@ Developed billing and finance module for a MERN-based veterinary system, focusin
 
 ### MerNote
 
-[![Repository](https://img.shields.io/badge/Repository-black?logo=github&logoColor=white&style=for-the-badge)](https://github.com/sandaliz/MerNote/tree/feature-branch)
+[![Repository](https://img.shields.io/badge/Repository-black?logo=github&logoColor=white&style=for-the-badge)](https://github.com/sandaliz/MerNote/tree/feature-branch) [![Live Demo](https://img.shields.io/badge/Live%20Demo-https://mernote.sandaliranahewa.dev/-blue?style=for-the-badge&logo=vercel&logoColor=white)](https://mernote.sandaliranahewa.dev/)
 
 #### Description
 
-Built a full-stack notes application with secure CRUD operations and Redis caching for performance optimization. Deployed on Railway with CI/CD workflow integration.
+Personal notes app with full CRUD, JWT authentication, and bcrypt password hashing. Features dark/light theme toggle, note color themes, debounced search, and a token-based password reset flow via Resend email API. Rate-limited with Upstash Redis (sliding window). Containerized with Docker multi-stage build, reverse-proxied through Nginx with SSL, and self-hosted on a DigitalOcean droplet.
+
+**Period:** 2025 Jun
 
 #### Key Features
 
 - **CRUD Operations:** Complete create, read, update, delete functionality for notes.
-- **User Authentication:** Secure login and registration system.
-- **Caching:** Redis implementation for improved response times.
-- **Deployment:** Automated CI/CD pipeline with Railway hosting.
+- **User Authentication:** Secure login, registration, and password reset.
+- **Caching & Rate Limiting:** Redis (Upstash) for performance and sliding window rate limiting.
+- **Containerization & Deployment:** Docker, Nginx, SSL, DigitalOcean.
 
 #### Technologies
 
-- **Frontend:** React.js with TailwindCSS for modern UI.
-- **Backend:** Node.js and Express.js for API development.
-- **Database:** MongoDB for note and user data storage.
-- **Caching:** Redis for performance optimization.
-- **Deployment:** Railway with automated CI/CD workflows.
+- **Frontend:** React 19, Tailwind CSS, DaisyUI
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB Atlas
+- **Authentication:** JWT, bcrypt
+- **Caching & Rate Limiting:** Upstash Redis
+- **Email:** Resend API
+- **Deployment:** Docker, Nginx, DigitalOcean
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge) ![Express.js](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white&style=for-the-badge) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwind-css&logoColor=white&style=for-the-badge) ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=for-the-badge) ![Railway](https://img.shields.io/badge/Railway-0B0D0E?logo=railway&logoColor=white&style=for-the-badge)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge) ![Express.js](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white&style=for-the-badge) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwind-css&logoColor=white&style=for-the-badge) ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge) ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white&style=for-the-badge) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?logo=digitalocean&logoColor=white&style=for-the-badge)
 
 #### Screenshots
 
@@ -140,6 +223,8 @@ Built a full-stack notes application with secure CRUD operations and Redis cachi
 #### Description
 
 Contributed to BusOperator use case implementation of an MVC-based bus reservation system with thread-safe backend design using Singleton database architecture. Implemented full CRUD functionality with responsive frontend and database-driven booking system.
+
+**Period:** 2025 Apr – May
 
 #### Key Features
 
@@ -173,6 +258,8 @@ Contributed to BusOperator use case implementation of an MVC-based bus reservati
 
 Designed a mobile application prototype for busy individuals to manage recipes, get personalized suggestions, and access AI-powered cooking assistance. Features include smart recipe discovery, personalized meal planning, step-by-step cooking instructions with timers, and real-time AI chef assistance for cooking queries. Created as an ideathon project focusing on UI/UX design and feature demonstration.
 
+**Period:** 2025 Sep
+
 #### Key Features
 
 - **Smart Recipe Discovery:** Intelligent recipe recommendations based on preferences and available ingredients.
@@ -199,33 +286,4 @@ Designed a mobile application prototype for busy individuals to manage recipes, 
 
 ---
 
-### Emotion-Satisfaction Analysis
-
-[![Repository](https://img.shields.io/badge/Repository-black?logo=github&logoColor=white&style=for-the-badge)](https://github.com/sandaliz/emotion-satisfaction-analysis)
-
-#### Description
-
-Multi-activity comparative study validating whether emotional connection predicts satisfaction across entertainment domains (movies, social media, music). Implemented descriptive, inferential, predictive, and meta-analysis using R. My contribution: music dataset analysis with strong evidence (r=0.215, p<0.001, OR=1.731) supporting the hypothesis.
-
-#### Key Findings
-
-- **Correlation Analysis:** Demonstrated significant positive correlation (r=0.215) between emotional connection and satisfaction in music domain.
-- **Statistical Significance:** Strong evidence with p-value < 0.001.
-- **Odds Ratio:** Users with emotional connection were 1.731 times more likely to report satisfaction.
-- **Meta-Analysis:** Combined effect sizes across all entertainment domains for comprehensive validation.
-
-#### Technologies
-
-- **Statistical Analysis:** R for comprehensive statistical computing.
-- **Data Manipulation:** Tidyverse for data wrangling and transformation.
-- **Meta-Analysis:** Meta package for combining effect sizes across studies.
-- **Visualization:** ggplot2 for publication-quality statistical graphics.
-- **Effect Sizes:** Effectsize package for standardized effect size calculation.
-- **Predictive Modeling:** Caret with Logistic Regression for classification tasks.
-
-![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white&style=for-the-badge) ![Tidyverse](https://img.shields.io/badge/Tidyverse-1A162D?logo=r&logoColor=white&style=for-the-badge) ![ggplot2](https://img.shields.io/badge/ggplot2-276DC3?logo=r&logoColor=white&style=for-the-badge)
-
-#### Screenshots
-
-| ![Emotion Satisfaction Analysis](projects/emotion-sat2.png) |
-| :---------------------------------------------------------: |
+© 2026 Sandali Ranahewa
